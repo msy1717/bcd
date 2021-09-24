@@ -1,15 +1,17 @@
-# Telethon Bot
+# Telegram Bot
 Simple base used to make a Telegram Bot in [telethon](https://github.com/LonamiWebs/Telethon).
    
-Join [@BotzHub](https://t.me/BotzHub)!
+Join [✘ 𝘽𝙤𝙩𝙯 𝙊𝙛𝙛𝙞𝙘𝙞𝙖𝙡 ✘](https://t.me/https://t.me/Botz_Official)!
     
-Note: The `client`, here, is named `BotzHub`.
+Note: The `client`, here, is named `BotOfficial`.
    
-Fork and add your plugins to [TelethonBot/plugins](./TelethonBot/plugins), and, thats it!
-
 # Deploying
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Credits
-- [Telethon.](https://github.com/LonamiWebs/Telethon)
-- [Me.](https://t.me/xditya)
+- [😈Me](https://t.me/Godmrunal)
+
+# Suggested By
+
+- [coder_debojit](https://t.me/coder_debojit)
+
