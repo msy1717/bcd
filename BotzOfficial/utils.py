@@ -1,5 +1,6 @@
-# By < @xditya >
-# // @BotzHub //
+# By < @Godmrunal >
+# // @Botz_Official
+#dont remove credit else gay
 
 import sys
 import logging
