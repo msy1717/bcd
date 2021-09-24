@@ -5,6 +5,7 @@
 import glob
 from pathlib import Path
 import logging
+from BotzOfficial.utils import load_plugins
 from . import BotzOfficial
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
