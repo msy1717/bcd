@@ -1,1 +1,1 @@
-BotzOfficial: python -m BotzOfficial
+Botz: python -m BotzOfficial
