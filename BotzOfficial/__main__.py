@@ -4,7 +4,6 @@
 
 import glob
 from pathlib import Path
-from TelethonBot.utils import load_plugins
 import logging
 from . import BotzOfficial
 
