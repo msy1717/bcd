@@ -1,5 +1,7 @@
-# By < @xditya >
-# // @BotzHub //
+# By < @Godmrunal >
+# // @Botz_Official
+#dont remove credit else gay
+
 
 from telethon import TelegramClient
 from decouple import config
@@ -14,4 +16,4 @@ APP_ID = config("APP_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
 BOT_TOKEN = config("BOT_TOKEN", default=None)
 
-BotzHub = TelegramClient('BotzHub', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+BotzOfficial = TelegramClient('BotzOfficial', APP_ID, API_HASH).start(bot_token=BOT_TOKEN) 
