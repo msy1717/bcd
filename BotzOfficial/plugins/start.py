@@ -1,16 +1,31 @@
-# By < @xditya >
-# // @BotzHub //
-from .. import BotzHub
+# By < @Godmrunal >
+# // @Botz_Official
+#dont remove credit else gay
+
+from .. import BotzOfficial
 from telethon import events, Button
 
-@BotzHub.on(events.NewMessage(incoming=True, pattern="/start"))
+@BotzOfficial.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
-    await event.reply("Hello!",
-                    buttons=[
-                        [Button.url("ButtonUrl", url="https://t.me/xditya")],
-                        [Button.inline("Inline Button",data="example")]
-                    ])
+    await event.reply("**Hello!**",
+                   buttons = [
+    [
+        Button.url("Updates", url="https://t.me/Botz_Official"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/BotzOfficial_Support"),
+    ],
+    [Button.inline("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", data="help_back")]
+    ])
 
-@BotzHub.on(events.callbackquery.CallbackQuery(data="example"))
+@BotzOfficial.on(events.callbackquery.CallbackQuery(data="help_back"))
 async def ex(event):
-    await event.edit("You clicked a button!")
+    await event.edit("**Here is commands**",
+                      buttons=[
+                     [Button.inline("        ✘huehue✘        ", data="bsdk")]                     
+                     ])
+
+@BotzOfficial.on(events.callbackquery.CallbackQuery(data="bsdk"))
+async def ex(event):
+    await event.edit("**test message add here anything**",
+                     buttons=[
+                        [Button.inline("Back", data="help_back")]
+                         ])
