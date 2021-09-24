@@ -11,7 +11,7 @@ from . import BotzOfficial
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 
-path = "TelethonBot/plugins/*.py"
+path = "BotzOfficial/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
